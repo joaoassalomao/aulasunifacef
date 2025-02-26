@@ -1,0 +1,47 @@
+
+        body {
+            font-family: Arial, sans-serif; /*Fonte*/
+            display: flex; /*Usa o FlexBox para exibir o conteúdo*/
+            justify-content: center; /*Centralizar na horizontal*/
+            height: 100vh; /*Altura da página é todo o conteúdo dela*/
+            align-items: center; /*centraliza na vertical*/
+            background-color: #09005b;
+        }
+        .container {
+            background-color: rgb(219, 219, 219);
+            padding: 20px; /*Espaçamento interno*/
+            border-radius: 10px;
+            box-shadow: 4px 8px;
+            text-align: center;
+        }
+        
+        h2 {
+            color: #09005b;
+            padding: 5px;
+        }
+
+        p{
+            color: #09005b;
+        }
+        
+        button {
+            background-color: #09005b;
+            color: rgb(219, 219, 219);
+            border: none;
+            padding: 5px; /*espaçamento interno*/
+            border-radius: 5px; /*bordas arredondadas*/
+            cursor: pointer; /*Mouse vira um ponteiro*/
+        }
+
+        /*cria efeito de passar o mouse no botão*/
+        button:hover {
+            background-color: #d5a000;
+        }
+
+        .imagem {
+            border-radius: 70%;
+            width: 150px; /*Largura*/
+            height: 150px; /*Altura*/
+            margin-bottom: 10px; /*Espaçamento externo*/
+        }
+    
