@@ -4,7 +4,7 @@
             display: flex; /*Usa o FlexBox para exibir o conteúdo*/
             justify-content: center; /*Centralizar na horizontal*/
             height: 100vh; /*Altura da página é todo o conteúdo dela*/
-            align-items: center; /*centraliza na vertical*/
+            align-items: center; /*centraliza na vertical.*/
             background-color: #09005b;
         }
         .container {
